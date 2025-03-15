@@ -4,17 +4,16 @@
 
 ## 简介
 这个仓库用于记录L4D2服务器维护过程中遇到的问题和解决方案，方便以后查阅。
+服务器地址l4d2.tunarund.top
+每晚9点打三方图，尸潮多特，欢迎大家来~~坐牢~~玩啊
 使用了gitignore的[白名单模式](https://cn.linux-console.net/?p=7733)
 
-## Mail
-已安装postfix dovecot，未配置
-
-## 服务器配置
+## 备忘录
 !!!本机mstsc端口改注册表改成15837了
 
 SteamCMD下载创意工坊 https://blog.csdn.net/llfdhr/article/details/132222752
 网页下载创意工坊 https://steamworkshopdownloader.io/
-插件、vpk D:/yincang/Games/求生之路2
+插件、vpk E:/yincang/Games/L4D2
 录像 E:\LenovoSoftstore\Movie\Left 4 Dead 2
 创建药役、尸潮模式ing
 
@@ -58,6 +57,8 @@ get_workshop.py通过[steamworkshopdownloader.io](https://steamworkshopdownloade
 get_map_info.py通过订阅链接获取地图封面、名称、大小等信息，返回json格式
 store_map_info.py将get_map_info.py获取的json格式信息存入数据库
 rename_vpk.py扫描其所处目录下的addons目录，获取vpk文件名，对于纯数字文件名，通过构造订阅链接获取名称，否则通过vpk解包addoninfo.txt-addonTitle获取名称，并修改原文件名，记录到rename_vpk.log
+### Vpktools
+某人不会将vpk文件移到addons目录下，于是写了个脚本，自动检测steam目录然后寻找Left 4 Dead 2将vpk文件移到addons目录下
 ## docker备份
 重要目录
 /home/steam/l4d2server/left4dead2
