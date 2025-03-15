@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Sweet Victory Credits"
+    addonversion           1.0
+    addonauthor            "Keychain"
+    addonDescription       "This mod replaces the credits music for every L4D2 campaign with David Glen Eisley - Sweet Victory."
+}

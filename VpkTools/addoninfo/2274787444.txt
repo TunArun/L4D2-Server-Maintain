@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+     addonSteamAppID         550
+     addontitle              "Buried Deep [1/2]"
+     addonversion	     	 1.8
+     addontagline            "Where all their hope lies within!"
+     addonauthor             "Zanieon"
+     addonContent_Campaign   1
+	 addonContent_Versus	 1
+	 addonContent_Music		 1
+	 addonContent_Sound		 1
+     addonURL0               "https://gamemaps.com/details/23930"
+
+     addonDescription        "An underground military complex where the survivors were resting was overrun, the only way out is opening a path through the infected."
+}

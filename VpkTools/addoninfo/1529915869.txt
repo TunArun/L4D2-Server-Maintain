@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "The Footsteps of high heels[V2.1]"
+    addonversion           "2.1"
+    addonauthor            "AmeneSanKa"
+    addonauthorSteamID     "”Í“Ù…¢»A"
+    addonURL0              "WORKSHOP"
+    addonDescription       "The sound of high heels Replace survival's footsteps"
+
+}

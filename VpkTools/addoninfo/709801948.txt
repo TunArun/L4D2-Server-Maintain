@@ -1,0 +1,12 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons. 
+ 
+"AddonInfo"
+{
+addonSteamAppID 550
+addontitle "To be Continued"
+addonversion 0.1
+addontagline "Music Mod"
+addonauthor "Never"
+addonContent_Campaign 0
+addonDescription "Changes safehouse music for roundabout"
+}

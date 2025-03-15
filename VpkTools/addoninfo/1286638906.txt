@@ -1,0 +1,21 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons. 
+
+"AddonInfo"
+{
+     addonSteamAppID         500                                                     // 500 is the app ID for Left 4 Dead
+     addontitle              "Hunter ninio rata"                                             // Add-on title that shows up in Add-ons list. ~20 chars max
+     addonversion	     1.3                                                     // Add-on version.
+     addontagline            "changes the color of the hunters coat black"	             // Add-on tagline or wrap-up- a short description. ~100 chars max
+     addonauthor             "ViktorV12"                                                 // Name/alias of the author
+     addonSteamGroupName     ""                                        // (Optional) Steam group related to the add-on. We use this to construct a URL to the group page.
+     addonauthorSteamID      "ferretsshadow"                                            // (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+     addonContent_Campaign   1 	                                                     //This addon provides muliple connected maps with a finale
+     addonURL0               ""  //An html home page for the add-on that includes a download link.
+ 
+     // short description that appears in the Add-on list screen...
+     addonDescription        "Hace que el janter sea un ninio rata de alan gualqer"
+ 
+     // Authors can add localized descriptions here. (Not yet supported)
+     addonDescription_FR     "Les survivants doivent s'échapper en métro dans cette carte du tutoriel. Obtenez les fichiers et les outils pour créer vos propres cartes en chargeant les outils de création SDK Left 4 Dead qui sont disponibles sous l'onglet "Outils" sur Steam."	
+ 
+}

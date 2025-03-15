@@ -1,0 +1,9 @@
+
+"AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "In-game sliders"
+     addonversion            "1.1"
+     addonauthor             "Virus"
+     addonDescription        "Add In-game sliders (Fov and Viewmodel)"
+}

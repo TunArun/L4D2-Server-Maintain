@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+addontitle "maya"
+addonversion "1.0"
+addonauthor "fruit milk"
+addonauthorSteamID "fruit milk"
+addonURL0 ""
+addonDescription
+"
+
+no
+"
+addonContent_Skin "1"
+addonContent_Survivor "1"
+}

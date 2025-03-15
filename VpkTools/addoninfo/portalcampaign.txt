@@ -1,0 +1,36 @@
+"AddonInfo"
+{
+	"addonSteamAppID"                  "550"
+	"addonTitle"                       "Portal 2: The Underground"
+	"addonVersion"                     "1.0"
+	"addonTagline"                     "Experimenting... With Death!"
+	"addonAuthor"                      "Warden"
+	"addonAuthorSteamID"               "Warden"
+	"addonSteamGroupName"              "TLMSG1Com"
+	"addonURL0"                         "https://steamcommunity.com/workshop/filedetails/?id=2062457019"
+	
+	"addonContent_Campaign"            "1"
+	"addonContent_Survival"            "1"
+	"addonContent_Scavenge"            "0"
+	"addonContent_Versus"              "0"
+	"addonContent_Map"                 "0"
+	
+	"addonContent_Survivor"            "0"
+	"addonContent_Skin"                "0"
+	
+	"addonContent_BossInfected"        "0"
+	"addonContent_CommonInfected"      "0"
+	"addonContent_Music"               "0"
+	"addonContent_Sound"               "1"
+	"addonContent_Prop"                "0"
+	"addonContent_Prefab"              "0"
+	"addonContent_Spray"               "0"
+	"addonContent_Script"              "0"
+	"addonContent_BackgroundMovie"     "0"
+	
+	"Content_Weapon"                   "0"
+	"Content_WeaponModel"              "0"
+	
+	"addonDescription"                 "The underground from portal 2, in left for dead 2! all content should be packed right into the mod."
+
+}

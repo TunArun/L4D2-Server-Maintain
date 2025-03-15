@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Uzi—申鹤"
+    addonversion           1.0
+    addonauthor            "ThomasCat, Mav，洛兮"
+    addonDescription       "MW2019 UZI."
+    addonTagline	   "the 'i don't use meta weapons' weapon"
+}

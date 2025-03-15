@@ -1,0 +1,14 @@
+"AddonInfo"
+{
+	addonSteamAppID		550
+	addontitle		            "大力王tank"
+	addonversion		"1.0"
+	addontagline		"感染者"
+	addonauthor		"黑江花子"
+	addonSteamGroupName	""
+	addonauthorSteamID	"黑江花子"
+	addonURL0		""
+	addonDescription		"憋不住了"
+	addonDescription_FR	""
+	addonContent_Script 1
+}

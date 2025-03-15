@@ -1,0 +1,16 @@
+"AddonInfo"
+{
+    addonSteamAppID         550                                                     
+    addontitle              "ContraZ part2"                                           
+    addonversion	     50                                                       
+    addonauthor             "月兔鸽&Missed"                                                
+    addonauthorSteamID      "https://steamcommunity.com/sharedfiles/filedetails/?id=1987326534"                                         
+   addonContent_Campaign	"1"
+   addonContent_Script	"1"          
+   addonContent_Sound	"1"    	                                                     
+    addonURL0               "https://steamcommunity.com/sharedfiles/filedetails/?id=1987326534" 
+ 
+    addonDescription        "魂斗罗Z战役.  This is a campaign that imitates and pays tribute to Contra."
+
+ 
+}

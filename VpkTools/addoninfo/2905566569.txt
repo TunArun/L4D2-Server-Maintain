@@ -1,0 +1,12 @@
+"AddonInfo"
+{
+	AddonTitle          "ak47（皮肤）"
+	AddonVersion        "0.2"
+	AddonDescription    "ak47闪刀姬"
+	AddonAuthor         "夜空Twinkle"
+	AddonAuthorSteamID  ""
+	AddonURL0           
+
+	AddonSteamAppID 
+
+}

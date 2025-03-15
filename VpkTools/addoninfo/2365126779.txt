@@ -1,0 +1,27 @@
+"AddonInfo"
+{
+addonSteamAppID         550
+addontitle "Genshin Impact Ganyu Replaces Louis" 
+addonversion 1.11
+addontagline "suvivor,louis" 
+addonauthor "Spicy Hot Pot"
+addonauthorSteamID "https://steamcommunity.com/profiles/76561198849335360/"
+addonDescription "Replaces louis"
+
+addonContent_Script 0
+addonContent_Music 0
+addonContent_Sound 0
+addonContent_prop 0 
+addonContent_Prefab 0 
+
+addonContent_BackgroundMovie 0 
+addonContent_Survivor 1 
+addonContent_BossInfected 0
+addonContent_CommonInfected 0 
+addonContent_WeaponModel 
+addonContent_weapon  
+addonContent_Skin 0 
+addonContent_Spray 0 
+addonContent_Map 0
+}
+

@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+	addontitle 		"Dark Wood CC and Pop"
+	addonversion 		"3"
+	addontagline 		"jej"
+	addonauthor 		""
+	addonSteamGroupName 	""
+	addonauthorSteamID 	""
+	addonContent_Campaign 0
+	addonURL0 		""
+
+	addonDescription 	""
+
+
+}

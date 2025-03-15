@@ -1,0 +1,16 @@
+"AddonInfo"
+{
+	"addonSteamAppID"                  "550"
+	"addonTitle"                       "Pesaro"
+	"addonVersion"                     "15.0"
+	"addonTagline"                     "La Città delle 4 M: Mare, Monti, Musica, MORTE"
+	"addonAuthor"                      "simofy"
+	"addonAuthorSteamID"               "simofy"
+	"addonSteamGroupName"              "pesaro"
+	"addonURL0"                        "https://www.gamemaps.com/details/25057"
+	
+	"addonContent_Campaign"            "1"
+	"addonContent_Versus"              "1"
+	
+	"addonDescription"                 "The Survivors must reach the Fiorenzuola shore to escape Pesaro on a fishboat"
+}

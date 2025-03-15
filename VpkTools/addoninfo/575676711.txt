@@ -1,0 +1,17 @@
+"AddonInfo"
+{
+	"addonSteamAppID"                  "550"
+	"addonTitle"                       "Dark Wood (Extended)"
+	"addonVersion"                     "1.9"
+	"addonTagline"                     "Going to the woods at night wasn't such a good idea."
+	"addonAuthor"                      "Phaeton"
+	"addonURL0"                        "http://steamcommunity.com/workshop/filedetails/?id=575682109"
+ 
+	"addonContent_Campaign"			"1"
+	"addonContent_Survival"			"1"
+	"addonContent_Sound"			"1"
+	"addonContent_Prop"				"1"
+	"addonContent_Script"			"1"
+ 
+	"addonDescription"              "The survivors find themselves trapped on a small stretch of road at the middle of the night. Fleeing from the infected, they have no choice but to plunge into the darkness of the adjacent forest. They will have a long and dangerous journey through the dark woods, creepy caves, abandoned industrial zones, secret laboratory (which must be destroyed), 'Silent Hill' style deep underground prison, ancient catacombs, and finally face their last battle in the church on a flooded cemetery."
+}

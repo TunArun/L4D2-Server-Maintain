@@ -1,0 +1,25 @@
+"AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "Charger rainbow trail"
+     addonversion            "1.0"
+     addontagline            "by electrik"
+     addonauthor             "electrik"
+     addonauthorSteamID      "oelectrik"
+     addonDescription        "20% cooler charger"
+     
+     addonContent_Script 0
+     addonContent_Music 0
+     addonContent_Sound 0
+     addonContent_prop 0
+     addonContent_Prefab 0
+     addonContent_BackgroundMovie 0
+     addonContent_Survivor 0
+     addonContent_BossInfected 1
+     addonContent_CommonInfected 0
+     Content_WeaponModel 0
+     Content_weapon 0
+     addonContent_Skin 1
+     addonContent_Spray 0
+     addonContent_Map 0
+}

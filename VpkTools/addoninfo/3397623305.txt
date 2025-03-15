@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+     addonSteamAppID		"550"
+     addontitle				"【碧蓝档案】睡衣优香动态激光瞄准器" 
+     addonversion			"1.0"
+     addontagline			""
+     addonauthor			"六道花凛"
+     addonauthorSteamID	  	""
+	 
+     addonDescription		"Replace laser sights" 
+}

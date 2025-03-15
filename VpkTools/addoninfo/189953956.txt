@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+     addonSteamAppID         550
+     addontitle              "The Bloody Moors"
+     addonversion            4
+     addontagline            "I know it's wrong...it just tastes so good."
+     addonauthor             "Kev Edwards, Jeroen van Eden, bunny"
+     addonContent_Campaign   1
+     addonContent_Music      1
+     addonContent_Sound      1
+     addonContent_Prop       1
+     addonContent_BossInfected 1
+     addonURL0               "http://www.thebloodymoors.co.uk"
+     addonDescription        "Survivors have fled the USA to seek safety in England, but crash land on the bleak wind-swept Yorkshire moors and must fight through isolated old cottages and stables, a filthy canal and apartment building, an old cemetery and ruined church, a quarantined fishing village...and a long-buried eldritch horror."
+}

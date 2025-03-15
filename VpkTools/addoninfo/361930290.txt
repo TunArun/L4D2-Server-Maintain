@@ -1,0 +1,12 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Dio Charger"
+    addonversion           1.0
+    addonauthor            "dio brandover"
+    addonDescription       "Charger Sounds Mod"
+    addonContent_Music 1           // Has Custom Music 
+    addonContent_Sound 1           // Has Custom Sound
+
+    
+}

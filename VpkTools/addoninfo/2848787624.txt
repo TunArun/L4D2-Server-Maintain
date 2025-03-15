@@ -1,0 +1,27 @@
+"AddonInfo"
+{
+	AddonTitle          "明日方舟 百炼嘉维尔-丛林之魂 斧头 Arknights Gavial the Invincible Axe"
+	AddonVersion        "1.0"
+	AddonDescription    "都没事吧？嘿，还有下一场战斗在等着呢，打起精神来，我们一起把任务解决掉！"
+	AddonAuthor         "AIDDRM"
+	AddonAuthorSteamID  "AIDDRM"
+	AddonURL0           ""
+
+	AddonSteamAppID  550
+
+	AddonContent_BackgroundMovie 0
+	AddonContent_BossInfected    0
+	AddonContent_Campaign        0
+	AddonContent_CommonInfected  0
+	AddonContent_Map      0
+	AddonContent_Music    0
+	AddonContent_Prefab   0
+	AddonContent_Prop     0 
+	AddonContent_Script   0
+	AddonContent_Skin     1
+	AddonContent_Sound    0
+	AddonContent_Spray    0
+	AddonContent_Survivor 0
+	AddonContent_Weapon      1
+	AddonContent_WeaponModel 0
+}					// ←别动

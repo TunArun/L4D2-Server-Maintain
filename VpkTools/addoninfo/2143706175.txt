@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "梅花M1 Garand"
+     addonversion            "1.0"
+     addontagline            ""
+     addonauthor             "Lt. Rocky\Denny"
+     addonauthorSteamID      "Lt. Rocky"
+     addonDescription        "Replaces the Hunting Rifle on its own ported set"
+     
+
+
+}

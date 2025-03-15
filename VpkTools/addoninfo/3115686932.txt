@@ -1,0 +1,31 @@
+"AddonInfo"
+{
+     addonSteamAppID         550                             // 500 is the app ID for Left 4 Dead, 550 for Left 4 Dead 2
+     addontitle              "广西-南宁 V1.15.1 Part 2"                     // Add-on title that shows up in Add-ons list. ~20 chars max
+     addonversion	     1151                             // Add-on version.
+     addontagline            "GuangXiNanning"	     // Add-on tagline or wrap-up- a short description. ~100 chars max
+     addonauthor             "HerobrineAce"         // Name/alias of the author
+     addonSteamGroupName     ""                          // (Optional) Steam group related to the add-on. We use this to construct a URL to the group page.
+     addonauthorSteamID      "HerobrineAce"                   // (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+     addonURL0               "https://steamcommunity.com/sharedfiles/filedetails/?id=3115675033" //An html home page for the add-on that includes a download link.
+ 
+     // short description that appears in the Add-on list screen...
+     addonDescription        "PART-2 包含地图自定义音频"
+     addonContent_Script 			0
+     addonContent_Music 				1 
+     addonContent_Sound 				1
+     addonContent_prop 				0
+     addonContent_Prefab 			0
+     addonContent_BackgroundMovie 	0
+     addonContent_Survivor 			0        					
+     addonContent_BossInfected 		0
+     addonContent_CommonInfected 	0
+     Content_WeaponModel 			0
+     Content_weapon 					0
+     addonContent_Skin 				0
+     addonContent_Spray 				0
+     addonContent_Map 				0
+     addonContent_Campaign 			0       							 
+     addonContent_Versus 			0
+
+}

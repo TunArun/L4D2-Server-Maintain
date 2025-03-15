@@ -1,0 +1,35 @@
+"AddonInfo"
+{
+     addonSteamAppID 550            // 550 is the app ID for Left 4 Dead 2
+     addontitle "Absolute Zero"
+     addonversion "8"
+     addontagline "When hell freezes over, burn a path through."                // short description
+     addonauthor "Chris Toth & Project Zero Team"
+     addonSteamGroupName "http://steamcommunity.com/groups/absolutezerocampaign"
+     addonauthorSteamID "Draugonian"
+     addonContent_Campaign 1
+     addonContent_Survival 0
+     addonContent_Scavenge 0
+     addonContent_Versus 1   
+     // if its a campaign or 
+     // or addonContent_Survival 1 
+     // or addonContent_Scavenge 0 
+     // or addonContent_Versus 1    // etc...  
+     addonURL0 "http://www.gamemaps.com/details/2423"                  // where people can download your VPK 
+     addonDescription "Survivors arrive at a quarantined military base only to find the military has already abandoned it. Stuck in the frozen peaks, they need to follow the military trail before it is too late." 
+     addonContent_Script 1          // Has Scripts 
+     addonContent_Music 1           // Has Custom Music 
+     addonContent_Sound 1           // Has Custom Sound 
+     addonContent_prop 1            // This Add-on provides new props, 
+     addonContent_Prefab 0          // Provides new prefabs 
+     addonContent_BackgroundMovie 0 // Provides a replacement for the background movie.
+     addonContent_Survivor 0        // Provides a new survivor model. 0=false, 1=true, String in quotes if replaces specific single character, i.e. "Coach"
+     // eg addonContent_Survivor "rochelle" works fine, no number.  
+     addonContent_BossInfected 0    // Provides a new boss infected model. Break these out?
+     addonContent_CommonInfected 0  // Provides a new common infected model
+     Content_WeaponModel 0          // Provides a new appearance to existing weapons, but does not change their function
+     Content_weapon 0               // provides new weapons or new zombie killing functionality, i.e. guns, explosives, booby traps, hot tar,
+     addonContent_Skin 1            // 0 if no new skin textures for existing models. 1 if multiple skin pack. String in quotes if specific single skin
+     addonContent_Spray 0           // Provides new sprays.
+     addonContent_Map 0             // Add-on provides a standalone map
+}

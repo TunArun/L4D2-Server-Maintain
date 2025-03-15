@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    addonSteamAppID        	550
+    addontitle				"Lord Of The Rings Campaign"
+    addonversion			17.0    	
+    addonauthor            	"Hannibal[SPA], Team Chivalry, SeriouS_Samurai, PopTheseFools"
+	addonSteamGroupName		"https://steamcommunity.com/sharedfiles/filedetails/?id=2458892093"
+    addonContent_Campaign	1
+    addonURL0              	"https://www.gamemaps.com/details/25147"
+    addonDescription       	"Battle thru Moria and on to Mordor. Then the great fortress of Rohan awaits!"
+}

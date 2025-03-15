@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+	addonSteamAppID			550								//The ID of the game. 550 is L4D2.
+	addontitle				"Cold Front"						//20 characters max.
+	addonversion			4
+	addontagline			"Brace the cold before the storm."	//100 characters max.
+	addonauthor				"A lot of people"
+	addonContent_Campaign	1								//Set to 1 if it supports Co-op mode.
+	addonContent_Versus		1								//Set to 1 if it supports Versus mode.
+	addonContent_Survival	0								//Set to 1 if it supports Survival mode.
+	addonContent_Scavenge	0								//Set to 1 if it supports Scavenge mode.
+	addonURL0				"https://steamcommunity.com/sharedfiles/filedetails/?id=3135451698"	//An html home page for the add-on that includes a download link.
+
+	addonDescription		"After fighting their way northside through thousands of ravenous hordes, our survivors are forced to abandon their boat at a nearby dock. With nowhere else to go, they head inland in hopes of finding rescue."
+}

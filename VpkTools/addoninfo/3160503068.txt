@@ -1,0 +1,17 @@
+
+ 
+"AddonInfo"
+{
+    addonSteamAppID         550                                                     
+    addontitle              "江门职院正式版v1.3"                                           
+    addonversion	     "13"                                                     
+    addontagline            "Complete"	     
+    addonauthor             "最后的利维坦"  
+    addonSteamGroupName ""                                                 
+    addonauthorSteamID      "最后的利维坦"                                         
+    addonContent_Campaign   1 	                                                     
+    addonURL0               "https://steamcommunity.com/profiles/76561198402738635/myworkshopfiles/" 
+ 
+    addonDescription        "上联：柑蕉桔梨萝柚——下联： 雁鹫雕狸狮狒。"
+ 
+}

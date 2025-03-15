@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Girls' Frontline / Dolls' Frontline 404 Baseball Bat"
+    addonversion           "1.0"
+    addonauthor            "PIO"
+    addonDescription       "Replaces Baseball Bat"
+}

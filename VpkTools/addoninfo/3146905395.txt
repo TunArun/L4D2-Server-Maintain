@@ -1,0 +1,10 @@
+AddonInfo
+{
+addonSteamAppID "550"
+addonTitle "[VRChat]Chiffon (Chocomint Sailor) [替换 Ellis]"
+addonVersion "1.0"
+addonAuthor "ShouyuNya"
+addonDescription " [VRChat]Chiffon (Chocomint Sailor) replace Ellis     Special Thanks: JazzMcNade (For 2D Facial Expression)"
+addonContent_Skin "1"
+addonContent_Survivor "1"
+}

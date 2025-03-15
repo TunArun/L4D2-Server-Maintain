@@ -1,0 +1,17 @@
+"AddonInfo"
+{
+     addonSteamAppID         550                             // 500 is the app ID for Left 4 Dead, 550 for Left 4 Dead 2
+     addontitle              "Yama"                     // Add-on title that shows up in Add-ons list. ~20 chars max
+     addonversion	     6                             // Add-on version.
+     addontagline            "Zombies in Japan!!!"	     // Add-on tagline or wrap-up- a short description. ~100 chars max
+     addonauthor             "Mark Edwards"         // Name/alias of the author
+     addonSteamGroupName     "IGY6"                          // (Optional) Steam group related to the add-on. We use this to construct a URL to the group page.
+     addonauthorSteamID      "76561197963759732"                   // (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+     addonContent_Campaign   1 	                                                     //This addon provides muliple connected maps with a finale
+     addonURL0               "https://www.gamemaps.com/details/22601" //An html home page for the add-on that includes a download link.
+ 
+     // short description that appears in the Add-on list screen...
+     addonDescription        "Four survivors find themselves stranded in Tokyo when the outbreak begins. They must escape towards Kyoto in the West, but finding that the infection has spread, their only option is to keep climbing up into the mountains."
+ 
+
+}

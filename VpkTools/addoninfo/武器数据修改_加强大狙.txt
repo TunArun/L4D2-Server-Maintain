@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "11111"
+    addonversion           "11"
+    addonauthor            "十一"
+    addonDescription       "没有疯的doctor，不是个好doctor。"
+}
+

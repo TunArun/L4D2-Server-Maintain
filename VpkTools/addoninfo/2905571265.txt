@@ -1,0 +1,12 @@
+"AddonInfo"
+{
+	AddonTitle          "霓虹MP5-SD"
+	AddonVersion        "0.2"
+	AddonDescription    "霓虹MP5-SD替换MP5(CSS)"
+	AddonAuthor         "夜空Twinkle"
+	AddonAuthorSteamID  ""
+	AddonURL0           
+
+	AddonSteamAppID 
+
+}

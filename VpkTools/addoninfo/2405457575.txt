@@ -1,0 +1,26 @@
+"AddonInfo"
+{
+	AddonTitle          "Boomer Juice"
+	AddonVersion        "1.0"
+	AddonDescription    "Get offa my lawn!"
+	AddonAuthor         "Majro"
+	AddonAuthorSteamID  "76561198071732989"
+
+	AddonSteamAppID  550
+
+	AddonContent_BackgroundMovie 0
+	AddonContent_BossInfected    0
+	AddonContent_Campaign        0
+	AddonContent_CommonInfected  0
+	AddonContent_Map      0
+	AddonContent_Music    0
+	AddonContent_Prefab   0
+	AddonContent_Prop     0 
+	AddonContent_Script   0
+	AddonContent_Skin     1
+	AddonContent_Sound    0
+	AddonContent_Spray    0
+	AddonContent_Survivor 0
+	AddonContent_Weapon      1
+	AddonContent_WeaponModel 1
+}

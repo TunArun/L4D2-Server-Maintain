@@ -1,0 +1,26 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons.
+ 
+"AddonInfo"
+{
+addonSteamAppID         550
+addontitle "麻薯替换坦克/Mashu tannnnnk" 
+addonversion 1.1
+addontagline "0"
+addonauthor "1"
+addonDescription "Enjoy it :)"
+addonContent_Script 0
+addonContent_Music 0
+addonContent_Sound 0
+addonContent_prop 0 
+addonContent_Prefab 0 
+
+addonContent_BackgroundMovie 0 
+addonContent_Survivor 0 
+addonContent_BossInfected 0
+addonContent_CommonInfected 0 
+addonContent_WeaponModel 
+addonContent_weapon  
+addonContent_Skin 0 
+addonContent_Spray 0 
+addonContent_Map 0
+}

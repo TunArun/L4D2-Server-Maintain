@@ -1,0 +1,27 @@
+"AddonInfo"
+{
+addonSteamAppID         550
+addontitle Mariel_bill" 
+addonversion 1.0
+addontagline "suvivor,bill" 
+addonauthor "TPP"
+addonDescription "此MOD作者为TPP，如有人称ta是此MOD的作者，请问候ta的双亲谢谢（简介）"
+
+//标签
+addonContent_Script 0
+addonContent_Music 0
+addonContent_Sound 0
+addonContent_prop 0 
+addonContent_Prefab 0 
+
+addonContent_BackgroundMovie 0 
+addonContent_Survivor 1 
+addonContent_BossInfected 0
+addonContent_CommonInfected 0 
+addonContent_WeaponModel 
+addonContent_weapon  
+addonContent_Skin 0 
+addonContent_Spray 0 
+addonContent_Map 0
+}
+

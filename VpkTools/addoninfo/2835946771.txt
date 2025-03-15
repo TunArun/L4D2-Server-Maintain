@@ -1,0 +1,27 @@
+"AddonInfo"
+{
+addonSteamAppID         550
+addontitle "Mia Replaces Jockey" 
+addonversion 1.0
+addontagline "Infected,Jockey" 
+addonauthor "Vaz0w"
+addonauthorSteamID "https://steamcommunity.com/profiles/76561198202236737/"
+addonDescription "Replaces Jockey"
+
+addonContent_Script 0
+addonContent_Music 0
+addonContent_Sound 0
+addonContent_prop 0 
+addonContent_Prefab 0 
+
+addonContent_BackgroundMovie 0 
+addonContent_Survivor 0 
+addonContent_BossInfected 1
+addonContent_CommonInfected 1 
+addonContent_WeaponModel 
+addonContent_weapon  
+addonContent_Skin 1 
+addonContent_Spray 0 
+addonContent_Map 0
+}
+

@@ -1,0 +1,12 @@
+"AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "Skadi Chrome Shotgun" 
+     addonversion            "1.0"
+     addontagline            "Chrome Shotgun"
+     addonauthor             "0"
+     addonURL0               "0"
+     addonDescription        "Replace Chrome shotgun
+为斯卡蒂献上心脏！
+Give Skadi my heart!"
+}

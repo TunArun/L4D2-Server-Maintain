@@ -124,8 +124,9 @@ def get_name_by_addoninfo(name):
             break
     if title_pos == -1:
         print_log(f'没有在{name}/addoninfo.txt找到addonTitle')
-    # 下方方式有bug，有的addoninfo.txt没有双引号
-    # title_pos=  addonTitle" "xxxxx"
+    # 下方方式有bug，有的addoninfo.txt没有双引号，正在寻找所有addoninfo.txt的规律
+    # 根据74个addoninfo的观察结果，大部分是addontitle "X:XxX",少部分"addonTitle" "【X】XXX",极少addontitle Mariel.bill" 
+    # 选择截取addontitle行后所有内容，去掉双引号，请修改下方逻辑
     title_pos = addoninfo_string.find('"', title_pos+1)
     title_pos = addoninfo_string.find('"', title_pos+1)
     # title_pos=  "xxxxx"

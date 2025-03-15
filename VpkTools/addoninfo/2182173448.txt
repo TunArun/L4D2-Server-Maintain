@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	addonSteamAppID		"550"
+	addontitle 		"DaWeiTianLong-GreatGreatDragon-VoicePack"
+	addonversion 		"1.0"
+	addonauthor 		"B1ex1ayU"
+	addonauthorSteamID 	"B1ex1ayU"
+	addonURL0 		"大威天龙语音包"
+	addonDescription 		"大威天龙！世尊地藏！"
+}

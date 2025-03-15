@@ -1,0 +1,27 @@
+"AddonInfo"
+{
+addonSteamAppID         550
+addontitle "Vtuber 兰音Reine2.0 替换弗朗西斯" 
+addonversion 1.0
+addontagline "suvivor,francis" 
+addonauthor "20doge"
+addonauthorSteamID "https://steamcommunity.com/profiles/76561198397232747/"
+addonDescription "Replaces francis"
+
+addonContent_Script 0
+addonContent_Music 0
+addonContent_Sound 0
+addonContent_prop 0 
+addonContent_Prefab 0 
+
+addonContent_BackgroundMovie 0 
+addonContent_Survivor 1 
+addonContent_BossInfected 0
+addonContent_CommonInfected 0 
+addonContent_WeaponModel 
+addonContent_weapon  
+addonContent_Skin 0 
+addonContent_Spray 0 
+addonContent_Map 0
+}
+

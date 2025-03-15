@@ -1,0 +1,12 @@
+AddonInfo
+{
+addonSteamAppID "550"
+addonTitle "「生还」Chocolat Bunny 基础材质"
+addonVersion "1"
+addonAuthor "Yrjw"
+addonDescription "
+如果穿模的话记得把对应的开关关掉
+每种部位颜色选其中一个"
+addonContent_Skin "1"
+addonContent_Survivor "1"
+}
