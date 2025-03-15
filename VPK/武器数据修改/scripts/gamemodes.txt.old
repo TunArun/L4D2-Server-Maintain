@@ -1,0 +1,1196 @@
+"GameModes"
+{
+	"coop"
+	{
+		"base"		"coop"
+		"maxplayers"	"4"
+		
+		"x360ctx"	"0"
+		"x360matchrule"		"0"
+		"x360presence"		"5"
+		"x360presence:"
+		{
+			"network:offline"	"11"
+			"play:commentary"	"3"
+			"play:credits"		"2"
+		}
+
+		"hasdifficulty"		"1"
+
+		convar
+		{   
+		       "ammo_ASSAULTRIFLE_max" 580
+		       "ammo_AUTOSHOTGUN_max" 115
+		       "ammo_GRENADELAUNCHER_max" -2
+		       "ammo_HUNTINGRIFLE_max" 185
+		       "ammo_SHOTGUN_max" 96
+		       "ammo_SMG_max" 690
+		       "ammo_SNIPERRIFLE_max" 165
+		       "ammo_M60_max" 300
+//关闭模组检查一致//
+sv_consistency 0
+//电锯伤害//
+chainsaw_damage 65
+//扔东西的力量//
+z_throw_force 100
+//推东西的力量//
+z_gun_physics_force 100
+//爆炸力量//
+phys_explosion_force 99999
+//推物间隔//
+gun_swing_interval 0.5
+//被攻击减速//
+survivor_damage_speed_factor 110
+//喷子倍伤距离//
+z_shotgun_bonus_damage_range 125
+//猎人攻击伤害//
+z_pounce_damage 1.2
+//猎人攻击间隔//
+z_pounce_damage_interval 0.1
+//牛击飞物体最小力度//
+//z_charge_min_force 650
+//牛击飞物体最大力度//
+z_charge_max_force 1000
+//口水的口水伤害//
+z_spit_latency 0.25
+//子弹穿过墙壁//
+bullet_ff_through_walls 1
+//猴子跳跃距离//
+z_jockey_leap_range 215
+//tank扔石头最小时间//
+tank_throw_min_interval 6
+//tank扔石头间隔//
+z_tank_throw_interval 10
+//困难tank纯燃烧死亡时间//
+tank_burn_duration_hard 93
+//专家tank纯燃烧死亡时间//
+tank_burn_duration_expert 100
+//手电筒对女巫反应范围//
+z_witch_flashlight_range 550
+//幸存者噪音显示//
+z_noise_level_display 1
+//幸存者走路的噪音//
+z_noise_level_footstep 40
+//幸存者走水路的噪音//
+z_noise_level_footstep_in_water 50
+//幸存者说话的噪音//
+z_noise_level_vocalize 60
+//死亡刷新救援距离//
+rescue_distance 4000
+//过了死亡刷新救援距离后可触发最近房间的救援的距离//
+rescue_range 1500
+//运动模糊//
+mat_motion_blur_enabled 0
+//喷漆间隔//
+decalfrequency 0
+//燃烧弹燃烧时间//
+incendiary_ammo_burn_time 5
+//Lerp//
+nb_update_frequency 0.11
+//我不知道//
+cl_interp_ratio 0
+//I don't know//
+cl_interp 0
+//Quiqente la tel//
+rate 60000
+//Ich weiß nicht//
+cl_cmdrate 100
+//J'en sais rien.//
+cl_updaterate 100
+//分かりません//
+sv_minrate 100000
+//Я не знаю//
+sv_maxrate 100000 
+//Tôi không biết/
+sv_minupdaterate 100
+//ฉันไม่รู้ว่า//
+sv_maxupdaterate 100 
+//Nescio//
+sv_mincmdrate 100
+//نميدونم//
+sv_maxcmdrate 100
+//吾不知//
+net_splitrate 2 
+//此为何//
+net_splitpacket_maxrate 50000
+//吾只知//
+sv_client_min_interp_ratio 0
+//此有用//
+sv_client_max_interp_ratio 2
+//坦克受伤最大减速范围//
+z_tank_damage_slow_max_range 600
+//坦克受伤最小减速范围//
+z_tank_damage_slow_min_range 425
+//榴弹对坦克的伤害//
+z_tank_grenade_damage 500
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//榴弹对自己伤害//
+grenadelauncher_ff_scale_self 0.02
+//榴弹对队友伤害//
+grenadelauncher_ff_scale 0.02
+//榴弹伤害//
+grenadelauncher_damage 400
+//电锯判定范围//
+chainsaw_attack_cone 45
+//电锯攻击距离//
+chainsaw_attack_distance 65
+//电锯吸引丧尸距离//
+chainsaw_attract_distance 1000
+//死亡刷新房间时间// 
+rescue_min_dead_time 45
+//特感刷新时间//
+z_special_spawn_interval 40
+//加特林可持续射击时间//
+z_minigun_overheat_time 30
+//加特林射击速度//
+z_minigun_rate_of_fire 1800
+//tank血量//
+z_tank_health 4424
+//口水的口水持续时间//
+z_spitter_high_chance 11
+//口水的口水范围//
+z_spit_range 950
+//口水的口水CD//
+z_spitter_max_wait_time 18
+//猴子CD//
+z_jockey_leap_again_timer 4
+//猴子移动速度//
+z_jockey_speed 255
+//牛初始冲击速度//
+z_charge_start_speed 260
+//牛最大冲击速度//
+z_charge_max_speed 505
+//牛冲击范围//
+z_charge_impact_radius 135
+//舌头拉人速度//
+tongue_victim_max_speed 200
+//猎人飞扑速度//
+hunter_pounce_air_speed 715
+//猎人飞扑距离//
+hunter_leap_away_give_up_range 1300
+//舌头CD//
+tongue_miss_delay 13
+//舌头的舌头长度//
+tongue_range 785
+//舌头的舌头飞行速度//
+tongue_fly_speed 1100
+//胖子爆炸范围//
+z_exploding_speed 185
+//胖子落地爆炸范围//
+z_exploding_splat_radius 210
+//胖子CD//
+z_vomit_interval 18
+//胖子喷射胆汁速度//
+z_vomit_velocity 1900
+//激光准度//
+upgrade_laser_sight_spread_factor 0.5
+//开电锯时受伤比数//
+z_hit_chainsawer_factor 0.4
+//榴弹爆炸击退范围//
+grenadelauncher_radius_stumble 365
+//倒低手枪精度惩罚//
+survivor_incapacitated_accuracy_penalty 0.1
+//倒低手枪重装时间//
+survivor_incapacitated_reload_multiplier 1.10
+//榴弹飞行速度//  
+grenadelauncher_velocity 1234        
+//丧尸听到枪声范围//  
+z_hear_gunfire_range 245
+//胆汁移动速度//           
+z_exploding_speed 200
+//舌头移动速度//           
+z_gas_speed 230
+//口水移动速度//           
+z_spitter_speed 230
+//解决跳关提示模组过多的// 
+sv_quota_stringcmdspersecond 99999
+//手电筒照射亮度//         
+r_flashlightconstant 0
+//手电筒照射范围//         
+r_flashlightfov 63
+//手电筒照射距离//         
+r_flashlightfar 8000
+//虚血掉的速度//     
+pain_pills_decay_rate 0.20
+//开针救人速度//           
+adrenaline_revive_speedup 0.35                           
+//针效果时间//             
+adrenaline_duration 17
+//空速//                   
+sv_airaccelerate 1111
+//土雷爆炸时间//           
+pipe_bomb_timer_duration 6
+//下蹲速度//               
+survivor_crouch_speed 90
+//起针速度//               
+adrenaline_run_speed 275
+//倒地爬行//               
+survivor_allow_crawling 1
+//爬行速度//               
+survivor_crawl_speed 55
+//近战范围//               
+melee_range 71
+//榴弹爆炸范围//           
+grenadelauncher_radius_kill 205
+//专家友伤//               
+survivor_friendly_fire_factor_expert 0.4
+
+}
+	
+   
+	}
+
+	"realism"
+	{
+		"base"		"realism"
+		"maxplayers"    "4"	// realism
+		"x360ctx"	"6"
+		"x360matchrule"		"0"
+		"x360presence"		"5"
+
+		"hasdifficulty"		"1"
+
+		// set base gamemode convars first, then the current gamemode
+		convar
+		{
+                       z_non_head_damage_factor_multiplier 0.5
+
+		       "ammo_ASSAULTRIFLE_max" 580
+		       "ammo_AUTOSHOTGUN_max" 115
+		       "ammo_GRENADELAUNCHER_max" -2
+		       "ammo_HUNTINGRIFLE_max" 185
+		       "ammo_SHOTGUN_max" 96
+		       "ammo_SMG_max" 690
+		       "ammo_SNIPERRIFLE_max" 165
+		       "ammo_M60_max" 300
+//特殊//
+			sv_disable_glow_survivors 1
+			sv_disable_glow_faritems 1
+			sv_rescue_disabled 1
+			z_non_head_damage_factor_multiplier 0.5
+			z_head_damage_causes_wounds 1
+			z_use_next_difficulty_damage_factor 1
+			z_witch_always_kills 1
+//分界//
+//关闭模组检查一致//
+sv_consistency 0
+//电锯伤害//
+chainsaw_damage 65
+//扔东西的力量//
+z_throw_force 100
+//推东西的力量//
+z_gun_physics_force 100
+//爆炸力量//
+phys_explosion_force 99999
+//推物间隔//
+gun_swing_interval 0.5
+//被攻击减速//
+survivor_damage_speed_factor 110
+//喷子倍伤距离//
+z_shotgun_bonus_damage_range 125
+//猎人攻击伤害//
+z_pounce_damage 1.2
+//猎人攻击间隔//
+z_pounce_damage_interval 0.1
+//牛击飞物体最小力度//
+//z_charge_min_force 650
+//牛击飞物体最大力度//
+z_charge_max_force 1000
+//口水的口水伤害//
+z_spit_latency 0.25
+//子弹穿过墙壁//
+bullet_ff_through_walls 1
+//猴子跳跃距离//
+z_jockey_leap_range 215
+//tank扔石头最小时间//
+tank_throw_min_interval 6
+//tank扔石头间隔//
+z_tank_throw_interval 10
+//困难tank纯燃烧死亡时间//
+tank_burn_duration_hard 93
+//专家tank纯燃烧死亡时间//
+tank_burn_duration_expert 100
+//手电筒对女巫反应范围//
+z_witch_flashlight_range 550
+//幸存者噪音显示//
+z_noise_level_display 1
+//幸存者走路的噪音//
+z_noise_level_footstep 40
+//幸存者走水路的噪音//
+z_noise_level_footstep_in_water 50
+//幸存者说话的噪音//
+z_noise_level_vocalize 60
+//死亡刷新救援距离//
+rescue_distance 4000
+//过了死亡刷新救援距离后可触发最近房间的救援的距离//
+rescue_range 1500
+//运动模糊//
+mat_motion_blur_enabled 0
+//喷漆间隔//
+decalfrequency 0
+//燃烧弹燃烧时间//
+incendiary_ammo_burn_time 5
+//Lerp//
+nb_update_frequency 0.11
+//我不知道//
+cl_interp_ratio 0
+//I don't know//
+cl_interp 0
+//Quiqente la tel//
+rate 60000
+//Ich weiß nicht//
+cl_cmdrate 100
+//J'en sais rien.//
+cl_updaterate 100
+//分かりません//
+sv_minrate 100000
+//Я не знаю//
+sv_maxrate 100000 
+//Tôi không biết/
+sv_minupdaterate 100
+//ฉันไม่รู้ว่า//
+sv_maxupdaterate 100 
+//Nescio//
+sv_mincmdrate 100
+//نميدونم//
+sv_maxcmdrate 100
+//吾不知//
+net_splitrate 2 
+//此为何//
+net_splitpacket_maxrate 50000
+//吾只知//
+sv_client_min_interp_ratio 0
+//此有用//
+sv_client_max_interp_ratio 2
+//坦克受伤最大减速范围//
+z_tank_damage_slow_max_range 600
+//坦克受伤最小减速范围//
+z_tank_damage_slow_min_range 425
+//榴弹对坦克的伤害//
+z_tank_grenade_damage 500
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//榴弹对自己伤害//
+grenadelauncher_ff_scale_self 0.02
+//榴弹对队友伤害//
+grenadelauncher_ff_scale 0.02
+//榴弹伤害//
+grenadelauncher_damage 400
+//电锯判定范围//
+chainsaw_attack_cone 45
+//电锯攻击距离//
+chainsaw_attack_distance 65
+//电锯吸引丧尸距离//
+chainsaw_attract_distance 1000
+//死亡刷新房间时间// 
+rescue_min_dead_time 45
+//特感刷新时间//
+z_special_spawn_interval 40
+//加特林可持续射击时间//
+z_minigun_overheat_time 30
+//加特林射击速度//
+z_minigun_rate_of_fire 1800
+//tank血量//
+z_tank_health 4424
+//口水的口水持续时间//
+z_spitter_high_chance 11
+//口水的口水范围//
+z_spit_range 950
+//口水的口水CD//
+z_spitter_max_wait_time 18
+//猴子CD//
+z_jockey_leap_again_timer 4
+//猴子移动速度//
+z_jockey_speed 255
+//牛初始冲击速度//
+z_charge_start_speed 260
+//牛最大冲击速度//
+z_charge_max_speed 505
+//牛冲击范围//
+z_charge_impact_radius 135
+//舌头拉人速度//
+tongue_victim_max_speed 200
+//猎人飞扑速度//
+hunter_pounce_air_speed 715
+//猎人飞扑距离//
+hunter_leap_away_give_up_range 1300
+//舌头CD//
+tongue_miss_delay 13
+//舌头的舌头长度//
+tongue_range 785
+//舌头的舌头飞行速度//
+tongue_fly_speed 1100
+//胖子爆炸范围//
+z_exploding_speed 185
+//胖子落地爆炸范围//
+z_exploding_splat_radius 210
+//胖子CD//
+z_vomit_interval 18
+//胖子喷射胆汁速度//
+z_vomit_velocity 1900
+//激光准度//
+upgrade_laser_sight_spread_factor 0.5
+//开电锯时受伤比数//
+z_hit_chainsawer_factor 0.4
+//榴弹爆炸击退范围//
+grenadelauncher_radius_stumble 365
+//倒低手枪精度惩罚//
+survivor_incapacitated_accuracy_penalty 0.1
+//倒低手枪重装时间//
+survivor_incapacitated_reload_multiplier 1.10
+//榴弹飞行速度//  
+grenadelauncher_velocity 1234        
+//丧尸听到枪声范围//  
+z_hear_gunfire_range 245
+//胆汁移动速度//           
+z_exploding_speed 200
+//舌头移动速度//           
+z_gas_speed 230
+//口水移动速度//           
+z_spitter_speed 230
+//解决跳关提示模组过多的// 
+sv_quota_stringcmdspersecond 99999
+//手电筒照射亮度//         
+r_flashlightconstant 0
+//手电筒照射范围//         
+r_flashlightfov 63
+//手电筒照射距离//         
+r_flashlightfar 8000
+//虚血掉的速度//     
+pain_pills_decay_rate 0.20
+//开针救人速度//           
+adrenaline_revive_speedup 0.35                           
+//针效果时间//             
+adrenaline_duration 17
+//空速//                   
+sv_airaccelerate 1111
+//土雷爆炸时间//           
+pipe_bomb_timer_duration 6
+//下蹲速度//               
+survivor_crouch_speed 90
+//起针速度//               
+adrenaline_run_speed 275
+//倒地爬行//               
+survivor_allow_crawling 1
+//爬行速度//               
+survivor_crawl_speed 55
+//近战范围//               
+melee_range 71
+//榴弹爆炸范围//           
+grenadelauncher_radius_kill 205
+//专家友伤//               
+survivor_friendly_fire_factor_expert 0.4
+                       
+		}
+
+	}
+
+	"survival"
+	{
+		"base"		"survival"
+		"maxplayers"    "4"	// survival
+		"x360ctx"	"3"
+		"x360matchrule"		"2"
+		"x360matchruleteam"	"3"
+		"x360presence"		"9"
+
+		"singlechapter"		"1"
+
+		convar
+{
+		       "ammo_ASSAULTRIFLE_max" 580
+		       "ammo_AUTOSHOTGUN_max" 115
+		       "ammo_GRENADELAUNCHER_max" -2
+		       "ammo_HUNTINGRIFLE_max" 185
+		       "ammo_SHOTGUN_max" 96
+		       "ammo_SMG_max" 690
+		       "ammo_SNIPERRIFLE_max" 165
+		       "ammo_M60_max" 300
+//关闭模组检查一致//
+sv_consistency 0
+//电锯伤害//
+chainsaw_damage 65
+//扔东西的力量//
+z_throw_force 100
+//推东西的力量//
+z_gun_physics_force 100
+//爆炸力量//
+phys_explosion_force 99999
+//推物间隔//
+gun_swing_interval 0.5
+//被攻击减速//
+survivor_damage_speed_factor 110
+//喷子倍伤距离//
+z_shotgun_bonus_damage_range 125
+//猎人攻击伤害//
+z_pounce_damage 1.2
+//猎人攻击间隔//
+z_pounce_damage_interval 0.1
+//牛击飞物体最小力度//
+//z_charge_min_force 650
+//牛击飞物体最大力度//
+z_charge_max_force 1000
+//口水的口水伤害//
+z_spit_latency 0.25
+//子弹穿过墙壁//
+bullet_ff_through_walls 1
+//猴子跳跃距离//
+z_jockey_leap_range 215
+//tank扔石头最小时间//
+tank_throw_min_interval 6
+//tank扔石头间隔//
+z_tank_throw_interval 10
+//困难tank纯燃烧死亡时间//
+tank_burn_duration_hard 93
+//专家tank纯燃烧死亡时间//
+tank_burn_duration_expert 100
+//手电筒对女巫反应范围//
+z_witch_flashlight_range 550
+//幸存者噪音显示//
+z_noise_level_display 1
+//幸存者走路的噪音//
+z_noise_level_footstep 40
+//幸存者走水路的噪音//
+z_noise_level_footstep_in_water 50
+//幸存者说话的噪音//
+z_noise_level_vocalize 60
+//死亡刷新救援距离//
+rescue_distance 4000
+//过了死亡刷新救援距离后可触发最近房间的救援的距离//
+rescue_range 1500
+//运动模糊//
+mat_motion_blur_enabled 0
+//喷漆间隔//
+decalfrequency 0
+//燃烧弹燃烧时间//
+incendiary_ammo_burn_time 5
+//Lerp//
+nb_update_frequency 0.11
+//我不知道//
+cl_interp_ratio 0
+//I don't know//
+cl_interp 0
+//Quiqente la tel//
+rate 60000
+//Ich weiß nicht//
+cl_cmdrate 100
+//J'en sais rien.//
+cl_updaterate 100
+//分かりません//
+sv_minrate 100000
+//Я не знаю//
+sv_maxrate 100000 
+//Tôi không biết/
+sv_minupdaterate 100
+//ฉันไม่รู้ว่า//
+sv_maxupdaterate 100 
+//Nescio//
+sv_mincmdrate 100
+//نميدونم//
+sv_maxcmdrate 100
+//吾不知//
+net_splitrate 2 
+//此为何//
+net_splitpacket_maxrate 50000
+//吾只知//
+sv_client_min_interp_ratio 0
+//此有用//
+sv_client_max_interp_ratio 2
+//坦克受伤最大减速范围//
+z_tank_damage_slow_max_range 600
+//坦克受伤最小减速范围//
+z_tank_damage_slow_min_range 425
+//榴弹对坦克的伤害//
+z_tank_grenade_damage 500
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//榴弹对自己伤害//
+grenadelauncher_ff_scale_self 0.02
+//榴弹对队友伤害//
+grenadelauncher_ff_scale 0.02
+//榴弹伤害//
+grenadelauncher_damage 400
+//电锯判定范围//
+chainsaw_attack_cone 45
+//电锯攻击距离//
+chainsaw_attack_distance 65
+//电锯吸引丧尸距离//
+chainsaw_attract_distance 1000
+//死亡刷新房间时间// 
+rescue_min_dead_time 45
+//特感刷新时间//
+z_special_spawn_interval 40
+//加特林可持续射击时间//
+z_minigun_overheat_time 30
+//加特林射击速度//
+z_minigun_rate_of_fire 1800
+//tank血量//
+z_tank_health 4424
+//口水的口水持续时间//
+z_spitter_high_chance 11
+//口水的口水范围//
+z_spit_range 950
+//口水的口水CD//
+z_spitter_max_wait_time 18
+//猴子CD//
+z_jockey_leap_again_timer 4
+//猴子移动速度//
+z_jockey_speed 255
+//牛初始冲击速度//
+z_charge_start_speed 260
+//牛最大冲击速度//
+z_charge_max_speed 505
+//牛冲击范围//
+z_charge_impact_radius 135
+//舌头拉人速度//
+tongue_victim_max_speed 200
+//猎人飞扑速度//
+hunter_pounce_air_speed 715
+//猎人飞扑距离//
+hunter_leap_away_give_up_range 1300
+//舌头CD//
+tongue_miss_delay 13
+//舌头的舌头长度//
+tongue_range 785
+//舌头的舌头飞行速度//
+tongue_fly_speed 1100
+//胖子爆炸范围//
+z_exploding_speed 185
+//胖子落地爆炸范围//
+z_exploding_splat_radius 210
+//胖子CD//
+z_vomit_interval 18
+//胖子喷射胆汁速度//
+z_vomit_velocity 1900
+//激光准度//
+upgrade_laser_sight_spread_factor 0.5
+//开电锯时受伤比数//
+z_hit_chainsawer_factor 0.4
+//榴弹爆炸击退范围//
+grenadelauncher_radius_stumble 365
+//倒低手枪精度惩罚//
+survivor_incapacitated_accuracy_penalty 0.1
+//倒低手枪重装时间//
+survivor_incapacitated_reload_multiplier 1.10
+//榴弹飞行速度//  
+grenadelauncher_velocity 1234        
+//丧尸听到枪声范围//  
+z_hear_gunfire_range 245
+//胆汁移动速度//           
+z_exploding_speed 200
+//舌头移动速度//           
+z_gas_speed 230
+//口水移动速度//           
+z_spitter_speed 230
+//解决跳关提示模组过多的// 
+sv_quota_stringcmdspersecond 99999
+//手电筒照射亮度//         
+r_flashlightconstant 0
+//手电筒照射范围//         
+r_flashlightfov 63
+//手电筒照射距离//         
+r_flashlightfar 8000
+//虚血掉的速度//     
+pain_pills_decay_rate 0.20
+//开针救人速度//           
+adrenaline_revive_speedup 0.35                           
+//针效果时间//             
+adrenaline_duration 17
+//空速//                   
+sv_airaccelerate 1111
+//土雷爆炸时间//           
+pipe_bomb_timer_duration 6
+//下蹲速度//               
+survivor_crouch_speed 90
+//起针速度//               
+adrenaline_run_speed 275
+//倒地爬行//               
+survivor_allow_crawling 1
+//爬行速度//               
+survivor_crawl_speed 55
+//近战范围//               
+melee_range 71
+//榴弹爆炸范围//           
+grenadelauncher_radius_kill 205
+//专家友伤//               
+survivor_friendly_fire_factor_expert 0.4
+ }
+	}
+ 
+	"versus"
+	{
+		"base"		"versus"
+		"maxplayers"    "8"	// versus
+		"x360ctx"	"1"
+		"x360matchrule"		"1"
+		"x360matchruleteam"	"3"
+		"x360presence"		"7"
+ 
+		"playercontrolledzombies"	"1"
+ 
+		convar
+{
+		       "ammo_ASSAULTRIFLE_max" 580
+		       "ammo_AUTOSHOTGUN_max" 115
+		       "ammo_GRENADELAUNCHER_max" -2
+		       "ammo_HUNTINGRIFLE_max" 185
+		       "ammo_SHOTGUN_max" 96
+		       "ammo_SMG_max" 690
+		       "ammo_SNIPERRIFLE_max" 165
+		       "ammo_M60_max" 300
+//关闭模组检查一致//
+sv_consistency 0
+//电锯伤害//
+chainsaw_damage 65
+//扔东西的力量//
+z_throw_force 100
+//推东西的力量//
+z_gun_physics_force 100
+//爆炸力量//
+phys_explosion_force 99999
+//推物间隔//
+gun_swing_interval 0.5
+//被攻击减速//
+survivor_damage_speed_factor 110
+//喷子倍伤距离//
+z_shotgun_bonus_damage_range 125
+//猎人攻击伤害//
+z_pounce_damage 1.2
+//猎人攻击间隔//
+z_pounce_damage_interval 0.1
+//牛击飞物体最小力度//
+//z_charge_min_force 650
+//牛击飞物体最大力度//
+z_charge_max_force 1000
+//口水的口水伤害//
+z_spit_latency 0.25
+//子弹穿过墙壁//
+bullet_ff_through_walls 1
+//猴子跳跃距离//
+z_jockey_leap_range 215
+//tank扔石头最小时间//
+tank_throw_min_interval 6
+//tank扔石头间隔//
+z_tank_throw_interval 10
+//困难tank纯燃烧死亡时间//
+tank_burn_duration_hard 93
+//专家tank纯燃烧死亡时间//
+tank_burn_duration_expert 100
+//手电筒对女巫反应范围//
+z_witch_flashlight_range 550
+//幸存者噪音显示//
+z_noise_level_display 1
+//幸存者走路的噪音//
+z_noise_level_footstep 40
+//幸存者走水路的噪音//
+z_noise_level_footstep_in_water 50
+//幸存者说话的噪音//
+z_noise_level_vocalize 60
+//死亡刷新救援距离//
+rescue_distance 4000
+//过了死亡刷新救援距离后可触发最近房间的救援的距离//
+rescue_range 1500
+//运动模糊//
+mat_motion_blur_enabled 0
+//喷漆间隔//
+decalfrequency 0
+//燃烧弹燃烧时间//
+incendiary_ammo_burn_time 5
+//Lerp//
+nb_update_frequency 0.11
+//我不知道//
+cl_interp_ratio 0
+//I don't know//
+cl_interp 0
+//Quiqente la tel//
+rate 60000
+//Ich weiß nicht//
+cl_cmdrate 100
+//J'en sais rien.//
+cl_updaterate 100
+//分かりません//
+sv_minrate 100000
+//Я не знаю//
+sv_maxrate 100000 
+//Tôi không biết/
+sv_minupdaterate 100
+//ฉันไม่รู้ว่า//
+sv_maxupdaterate 100 
+//Nescio//
+sv_mincmdrate 100
+//نميدونم//
+sv_maxcmdrate 100
+//吾不知//
+net_splitrate 2 
+//此为何//
+net_splitpacket_maxrate 50000
+//吾只知//
+sv_client_min_interp_ratio 0
+//此有用//
+sv_client_max_interp_ratio 2
+//坦克受伤最大减速范围//
+z_tank_damage_slow_max_range 600
+//坦克受伤最小减速范围//
+z_tank_damage_slow_min_range 425
+//榴弹对坦克的伤害//
+z_tank_grenade_damage 500
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//榴弹对自己伤害//
+grenadelauncher_ff_scale_self 0.02
+//榴弹对队友伤害//
+grenadelauncher_ff_scale 0.02
+//榴弹伤害//
+grenadelauncher_damage 400
+//电锯判定范围//
+chainsaw_attack_cone 45
+//电锯攻击距离//
+chainsaw_attack_distance 65
+//电锯吸引丧尸距离//
+chainsaw_attract_distance 1000
+//死亡刷新房间时间// 
+rescue_min_dead_time 45
+//特感刷新时间//
+z_special_spawn_interval 40
+//加特林可持续射击时间//
+z_minigun_overheat_time 30
+//加特林射击速度//
+z_minigun_rate_of_fire 1800
+//tank血量//
+z_tank_health 4424
+//口水的口水持续时间//
+z_spitter_high_chance 11
+//口水的口水范围//
+z_spit_range 950
+//口水的口水CD//
+z_spitter_max_wait_time 18
+//猴子CD//
+z_jockey_leap_again_timer 4
+//猴子移动速度//
+z_jockey_speed 255
+//牛初始冲击速度//
+z_charge_start_speed 260
+//牛最大冲击速度//
+z_charge_max_speed 505
+//牛冲击范围//
+z_charge_impact_radius 135
+//舌头拉人速度//
+tongue_victim_max_speed 200
+//猎人飞扑速度//
+hunter_pounce_air_speed 715
+//猎人飞扑距离//
+hunter_leap_away_give_up_range 1300
+//舌头CD//
+tongue_miss_delay 13
+//舌头的舌头长度//
+tongue_range 785
+//舌头的舌头飞行速度//
+tongue_fly_speed 1100
+//胖子爆炸范围//
+z_exploding_speed 185
+//胖子落地爆炸范围//
+z_exploding_splat_radius 210
+//胖子CD//
+z_vomit_interval 18
+//胖子喷射胆汁速度//
+z_vomit_velocity 1900
+//激光准度//
+upgrade_laser_sight_spread_factor 0.5
+//开电锯时受伤比数//
+z_hit_chainsawer_factor 0.4
+//榴弹爆炸击退范围//
+grenadelauncher_radius_stumble 365
+//倒低手枪精度惩罚//
+survivor_incapacitated_accuracy_penalty 0.1
+//倒低手枪重装时间//
+survivor_incapacitated_reload_multiplier 1.10
+//榴弹飞行速度//  
+grenadelauncher_velocity 1234        
+//丧尸听到枪声范围//  
+z_hear_gunfire_range 245
+//胆汁移动速度//           
+z_exploding_speed 200
+//舌头移动速度//           
+z_gas_speed 230
+//口水移动速度//           
+z_spitter_speed 230
+//解决跳关提示模组过多的// 
+sv_quota_stringcmdspersecond 99999
+//手电筒照射亮度//         
+r_flashlightconstant 0
+//手电筒照射范围//         
+r_flashlightfov 63
+//手电筒照射距离//         
+r_flashlightfar 8000
+//虚血掉的速度//     
+pain_pills_decay_rate 0.20
+//开针救人速度//           
+adrenaline_revive_speedup 0.35                           
+//针效果时间//             
+adrenaline_duration 17
+//空速//                   
+sv_airaccelerate 1111
+//土雷爆炸时间//           
+pipe_bomb_timer_duration 6
+//下蹲速度//               
+survivor_crouch_speed 90
+//起针速度//               
+adrenaline_run_speed 275
+//倒地爬行//               
+survivor_allow_crawling 1
+//爬行速度//               
+survivor_crawl_speed 55
+//近战范围//               
+melee_range 71
+//榴弹爆炸范围//           
+grenadelauncher_radius_kill 205
+//专家友伤//               
+survivor_friendly_fire_factor_expert 0.4
+		}
+}
+	"scavenge"
+	{
+		"base"		"scavenge"
+		"maxplayers"    "8"	// scavenge
+		"x360ctx"	"4"
+		"x360matchrule"		"4"
+		"x360matchruleteam"	"5"
+		"x360presence"		"9"
+ 
+		"singlechapter"		"1"
+		"hasroundlimit"		"1"
+ 
+		"playercontrolledzombies"	"1"
+ 
+		convar
+{
+		       "ammo_ASSAULTRIFLE_max" 580
+		       "ammo_AUTOSHOTGUN_max" 115
+		       "ammo_GRENADELAUNCHER_max" -2
+		       "ammo_HUNTINGRIFLE_max" 185
+		       "ammo_SHOTGUN_max" 96
+		       "ammo_SMG_max" 690
+		       "ammo_SNIPERRIFLE_max" 165
+		       "ammo_M60_max" 300
+//关闭模组检查一致//
+sv_consistency 0
+//电锯伤害//
+chainsaw_damage 65
+//扔东西的力量//
+z_throw_force 100
+//推东西的力量//
+z_gun_physics_force 100
+//爆炸力量//
+phys_explosion_force 99999
+//推物间隔//
+gun_swing_interval 0.5
+//被攻击减速//
+survivor_damage_speed_factor 110
+//喷子倍伤距离//
+z_shotgun_bonus_damage_range 125
+//猎人攻击伤害//
+z_pounce_damage 1.2
+//猎人攻击间隔//
+z_pounce_damage_interval 0.1
+//牛击飞物体最小力度//
+//z_charge_min_force 650
+//牛击飞物体最大力度//
+z_charge_max_force 1000
+//口水的口水伤害//
+z_spit_latency 0.25
+//子弹穿过墙壁//
+bullet_ff_through_walls 1
+//猴子跳跃距离//
+z_jockey_leap_range 215
+//tank扔石头最小时间//
+tank_throw_min_interval 6
+//tank扔石头间隔//
+z_tank_throw_interval 10
+//困难tank纯燃烧死亡时间//
+tank_burn_duration_hard 93
+//专家tank纯燃烧死亡时间//
+tank_burn_duration_expert 100
+//手电筒对女巫反应范围//
+z_witch_flashlight_range 550
+//幸存者噪音显示//
+z_noise_level_display 1
+//幸存者走路的噪音//
+z_noise_level_footstep 40
+//幸存者走水路的噪音//
+z_noise_level_footstep_in_water 50
+//幸存者说话的噪音//
+z_noise_level_vocalize 60
+//死亡刷新救援距离//
+rescue_distance 4000
+//过了死亡刷新救援距离后可触发最近房间的救援的距离//
+rescue_range 1500
+//运动模糊//
+mat_motion_blur_enabled 0
+//喷漆间隔//
+decalfrequency 0
+//燃烧弹燃烧时间//
+incendiary_ammo_burn_time 5
+//Lerp//
+nb_update_frequency 0.11
+//我不知道//
+cl_interp_ratio 0
+//I don't know//
+cl_interp 0
+//Quiqente la tel//
+rate 60000
+//Ich weiß nicht//
+cl_cmdrate 100
+//J'en sais rien.//
+cl_updaterate 100
+//分かりません//
+sv_minrate 100000
+//Я не знаю//
+sv_maxrate 100000 
+//Tôi không biết/
+sv_minupdaterate 100
+//ฉันไม่รู้ว่า//
+sv_maxupdaterate 100 
+//Nescio//
+sv_mincmdrate 100
+//نميدونم//
+sv_maxcmdrate 100
+//吾不知//
+net_splitrate 2 
+//此为何//
+net_splitpacket_maxrate 50000
+//吾只知//
+sv_client_min_interp_ratio 0
+//此有用//
+sv_client_max_interp_ratio 2
+//坦克受伤最大减速范围//
+z_tank_damage_slow_max_range 600
+//坦克受伤最小减速范围//
+z_tank_damage_slow_min_range 425
+//榴弹对坦克的伤害//
+z_tank_grenade_damage 500
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//高爆弹力度//
+upgrade_explosive_bullet_force 1000
+//榴弹对自己伤害//
+grenadelauncher_ff_scale_self 0.02
+//榴弹对队友伤害//
+grenadelauncher_ff_scale 0.02
+//榴弹伤害//
+grenadelauncher_damage 400
+//电锯判定范围//
+chainsaw_attack_cone 45
+//电锯攻击距离//
+chainsaw_attack_distance 65
+//电锯吸引丧尸距离//
+chainsaw_attract_distance 1000
+//死亡刷新房间时间// 
+rescue_min_dead_time 45
+//特感刷新时间//
+z_special_spawn_interval 40
+//加特林可持续射击时间//
+z_minigun_overheat_time 30
+//加特林射击速度//
+z_minigun_rate_of_fire 1800
+//tank血量//
+z_tank_health 4424
+//口水的口水持续时间//
+z_spitter_high_chance 11
+//口水的口水范围//
+z_spit_range 950
+//口水的口水CD//
+z_spitter_max_wait_time 18
+//猴子CD//
+z_jockey_leap_again_timer 4
+//猴子移动速度//
+z_jockey_speed 255
+//牛初始冲击速度//
+z_charge_start_speed 260
+//牛最大冲击速度//
+z_charge_max_speed 505
+//牛冲击范围//
+z_charge_impact_radius 135
+//舌头拉人速度//
+tongue_victim_max_speed 200
+//猎人飞扑速度//
+hunter_pounce_air_speed 715
+//猎人飞扑距离//
+hunter_leap_away_give_up_range 1300
+//舌头CD//
+tongue_miss_delay 13
+//舌头的舌头长度//
+tongue_range 785
+//舌头的舌头飞行速度//
+tongue_fly_speed 1100
+//胖子爆炸范围//
+z_exploding_speed 185
+//胖子落地爆炸范围//
+z_exploding_splat_radius 210
+//胖子CD//
+z_vomit_interval 18
+//胖子喷射胆汁速度//
+z_vomit_velocity 1900
+//激光准度//
+upgrade_laser_sight_spread_factor 0.5
+//开电锯时受伤比数//
+z_hit_chainsawer_factor 0.4
+//榴弹爆炸击退范围//
+grenadelauncher_radius_stumble 365
+//倒低手枪精度惩罚//
+survivor_incapacitated_accuracy_penalty 0.1
+//倒低手枪重装时间//
+survivor_incapacitated_reload_multiplier 1.10
+//榴弹飞行速度//  
+grenadelauncher_velocity 1234        
+//丧尸听到枪声范围//  
+z_hear_gunfire_range 245
+//胆汁移动速度//           
+z_exploding_speed 200
+//舌头移动速度//           
+z_gas_speed 230
+//口水移动速度//           
+z_spitter_speed 230
+//解决跳关提示模组过多的// 
+sv_quota_stringcmdspersecond 99999
+//手电筒照射亮度//         
+r_flashlightconstant 0
+//手电筒照射范围//         
+r_flashlightfov 63
+//手电筒照射距离//         
+r_flashlightfar 8000
+//虚血掉的速度//     
+pain_pills_decay_rate 0.20
+//开针救人速度//           
+adrenaline_revive_speedup 0.35                           
+//针效果时间//             
+adrenaline_duration 17
+//空速//                   
+sv_airaccelerate 1111
+//土雷爆炸时间//           
+pipe_bomb_timer_duration 6
+//下蹲速度//               
+survivor_crouch_speed 90
+//起针速度//               
+adrenaline_run_speed 275
+//倒地爬行//               
+survivor_allow_crawling 1
+//爬行速度//               
+survivor_crawl_speed 55
+//近战范围//               
+melee_range 71
+//榴弹爆炸范围//           
+grenadelauncher_radius_kill 205
+//专家友伤//               
+survivor_friendly_fire_factor_expert 0.4
+						
+	}
+}

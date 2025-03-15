@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+addontitle	 "Super Hordes"
+addonversion	 "1.1"
+addontagline	 "Super hordes"
+addonauthor "blackcat12951"
+addonDescription ".Adds up to 600 infected at a time and add some survivor traits including bot continuing after your death, bot melee weapons and 960 backup ammo cap."
+}
