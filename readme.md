@@ -9,6 +9,11 @@
 使用了gitignore的[白名单模式](https://cn.linux-console.net/?p=7733)
 
 ## 备忘录
+服务器管理memo
+1. sourcemod插件平台指令https://wiki.alliedmods.net/Managing_your_Sourcemod_installation/zh
+2. sourcemod/plugins目录下，optional和disabled目录下的文件不会被加载，其他都可以加载
+3. tmux终端复用https://www.linuxmi.com/linux-tmux.html
+4. confoglc插件管理
 !!!本机mstsc端口改注册表改成15837了
 
 SteamCMD下载创意工坊 https://blog.csdn.net/llfdhr/article/details/132222752
