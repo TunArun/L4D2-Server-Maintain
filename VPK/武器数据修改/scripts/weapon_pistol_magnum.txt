@@ -58,12 +58,12 @@ WeaponData
 	
 	
 	// Weapon characteristics:
-	"PenetrationNumLayers"		"2"
-	"PenetrationPower"		"55"
+	"PenetrationNumLayers"		"20"
+	"PenetrationPower"		"100"
 	"PenetrationMaxDistance"	"0"	// none
 
 	"Damage"			"100"
-	"Range"				"3500"
+	"Range"				"8192"
 	"RangeModifier"			"1.00"
 	"Bullets"			"1"
 	//"CycleTime"			"0.15"
