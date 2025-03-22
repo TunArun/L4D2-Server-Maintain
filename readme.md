@@ -7,28 +7,31 @@
 使用了gitignore的[白名单模式](https://cn.linux-console.net/?p=7733)
 服务器地址l4d2.tunarund.top
 求生小队Q群：[646920616](https://qm.qq.com/q/7eV7e1XlOo)
-![二维码](https://l4d2.tunarund.top/static/eta/小队Q群.jpg)
+![二维码](https://l4d2.tunarund.top/static/img/小队Q群.jpg)
 
 每晚9点打三方图，尸潮多特，欢迎大家来~~坐牢~~玩啊
 
 ## 备忘录
-1. sourcemod插件平台指令https://wiki.alliedmods.net/Managing_your_Sourcemod_installation/zh
-2. sourcemod/plugins目录下，optional和disabled目录下的文件不会被加载，其他都可以加载
-3. tmux终端复用https://www.linuxmi.com/linux-tmux.html
-4. confoglc插件管理
+- sourcemod插件平台指令https://wiki.alliedmods.net/Managing_your_Sourcemod_installation/zh
+- sourcemod/plugins目录下，optional和disabled目录下的文件不会被加载，其他都可以加载
+- tmux终端复用https://www.linuxmi.com/linux-tmux.html
+- confoglc插件管理
 !!!本机mstsc端口改注册表改成15837了
-5. 创意工坊下载
+- 创意工坊下载
 SteamCMD https://blog.csdn.net/llfdhr/article/details/132222752
 网页 https://steamworkshopdownloader.io/
-6. 创建药役、尸潮模式、对抗模式
-7. 武器数据修改.vpk
-将大狙和鸟狙伤害改为300，手枪伤害改为134，减少扩散并加强了穿透
-
-8. 多特控制插件目前是AI_HardSI.smx特感0帧起手实在难绷
+- 创建药役、尸潮模式、对抗模式
+- 武器数据修改.vpk
+将大狙和鸟狙伤害改为300，马格南减少扩散并加强了穿透
+- 多特控制插件目前是AI_HardSI.smx特感0帧起手实在难绷
 考虑转交新的特感控制插件NekoSpecial~~可能导致崩溃,还有csm选择角色插件也可能导致崩溃~~
-9. 考虑增加安全屋超时传送、玩门处死插件
+- 考虑增加安全屋超时传送、玩门处死插件
 
+- CutlrBtree Overflow溢出？参见fdxx大佬的[仓库](https://github.com/fdxx/cutlrbtreefix)
+## Todo
 - [ ] 将服务器的cfg和sourcemod同步到仓库
+- [ ] 添加地图上传功能，限制上传次数
+- [ ] gamemaps解析
 - [x] 随机初始地图（但是只有才服务器进程重启时切换）
 - [ ] 尸潮改为cvar模式
 z_common_limit                          80
