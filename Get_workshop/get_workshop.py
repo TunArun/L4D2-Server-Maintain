@@ -90,8 +90,9 @@ def save_file(files,path):
 import store_map_info
 
 if __name__ == '__main__':
-    src = 'src_url.txt'
-    local_filename = 'urls.txt'
+    cfp = os.path.dirname(os.path.abspath(__file__))
+    src = os.path.join(cfp, 'src_url.txt')
+    local_filename = os.path.join(cfp,'urls.txt')
     remote_path = os.getenv('ADDON_PATH')
     remote_filename = 'urls.txt'
     while True:

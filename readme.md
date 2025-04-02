@@ -30,10 +30,13 @@ SteamCMD https://blog.csdn.net/llfdhr/article/details/132222752
 - CutlrBtree Overflow溢出？参见fdxx大佬的[仓库](https://github.com/fdxx/cutlrbtreefix)
 ## Todo
 - [ ] 将服务器的cfg和sourcemod同步到仓库
-- [ ] 添加地图上传功能，限制上传次数
+- [ ] 添加地图上传功能，限制上传次数（安全起见，加强过滤，FileMatch application/php）
 - [ ] gamemaps解析
 - [x] 随机初始地图（但是只有才服务器进程重启时切换）
 - [ ] 尸潮改为cvar模式
+- [ ] match添加sm_cvar mp_gamemode mutation1
+- [ ] -fork运行战役和对抗
+- [ ] 添加打赏
 z_common_limit                          80
 z_mob_spawn_finale_size                  80
 z_mob_spawn_max_size                     60
