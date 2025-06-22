@@ -22,21 +22,23 @@ SteamCMD https://blog.csdn.net/llfdhr/article/details/132222752
 网页 https://steamworkshopdownloader.io/
 - 创建药役、尸潮模式、对抗模式
 - 武器数据修改.vpk
-将大狙和鸟狙伤害改为300，马格南减少扩散并加强了穿透
+原始数据参考https://steamcommunity.com/sharedfiles/filedetails/?l=chinese&id=2071963177
+将大狙和鸟狙伤害改为300
+马格南减少扩散并加强了穿透，伤害为100，弹夹容量为12
+小手枪伤害36->48
 - 多特控制插件目前是AI_HardSI.smx特感0帧起手实在难绷
-考虑转交新的特感控制插件NekoSpecial~~可能导致崩溃,还有csm选择角色插件也可能导致崩溃~~
+已经更换为Neko多特,还有csm选择角色插件也可能导致崩溃~~
 - 考虑增加安全屋超时传送、玩门处死插件
-
 - CutlrBtree Overflow溢出？参见fdxx大佬的[仓库](https://github.com/fdxx/cutlrbtreefix)
 ## Todo
-- [ ] 将服务器的cfg和sourcemod同步到仓库
-- [ ] 添加地图上传功能，限制上传次数（安全起见，加强过滤，FileMatch application/php）
-- [ ] gamemaps解析
+- [ ] 更改网站结构，主站导航到mc、l4d2主页，然后展示歍详细信息
+- [x] 添加地图上传功能，限制上传次数（安全起见，加强过滤，FileMatch application/php）
+- [ ] gamemaps链接解析
 - [x] 随机初始地图（但是只有才服务器进程重启时切换）
-- [ ] 尸潮改为cvar模式
 - [ ] match添加sm_cvar mp_gamemode mutation1
 - [ ] -fork运行战役和对抗
 - [ ] 添加打赏
+- [ ] 尸潮改为cvar模式
 z_common_limit                          80
 z_mob_spawn_finale_size                  80
 z_mob_spawn_max_size                     60
@@ -76,11 +78,11 @@ z_background_limit 100
 某人不会将vpk文件移到addons目录下，于是调用tkinter写了个图形程序，自动检测steam目录然后寻找Left 4 Dead 2将vpk文件移到addons目录下
 ## docker备份
 重要目录
-/home/steam/l4d2server/left4dead2
-/var/html/www
+    /home/steam/l4d2server/left4dead2
+    /var/html/www
 数据库
-mysql-steam
+    mysql-steam
 脚本
-/home/steam/l4d2/scripts
+    /home/steam/l4d2/scripts
 网站
-certbot
+    certbot

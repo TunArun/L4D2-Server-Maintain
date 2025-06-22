@@ -34,8 +34,8 @@ def Shell(local_filename, remote_path, remote_filename):
     sftp.put(local_filename, remote_path+remote_filename)
     sftp.close()
     # tmux
-    shell.send('tmux attach -t cmd1\n')
-    shell.send('\b\b./downmap.sh\n')
+    # shell.send('tmux attach -t cmd1\n')
+    # shell.send('\b\b./downmap.sh\n')
     ssh.close()
 
 # 链接解析
@@ -44,7 +44,7 @@ import requests,json,re
 def get_src_data(src):
     pattern = r'id=(\d+)'
     datas = []
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf-8') as f:
         for line in f:#按行读取
             # 截取id
             match = re.search(pattern, line)
@@ -54,7 +54,7 @@ def get_src_data(src):
     return datas
 
 # 根据id获取文件名和下载链接files
-def get_target_site(datas):
+def get_target_site(datas, proxies=None):
     headers = {
 
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0',
@@ -65,7 +65,7 @@ def get_target_site(datas):
     i=0
     for data in datas:
         # request请求
-        with requests.post('https://steamworkshopdownloader.io/api/details/file', headers=headers, data=data) as response:
+        with requests.post('https://steamworkshopdownloader.io/api/details/file', headers=headers, data=data, proxies=proxies) as response:
             if not response.status_code == 200:
                 continue
         i+=1
@@ -77,7 +77,7 @@ def get_target_site(datas):
         # 保存文件名和下载链接
         files.append(file_name + ' ' + file_url)
         print(f'success {i}/{len(datas)} {file_name}')
-        sleep(0.1)
+        
     return files
 # 把files(filename url)保存到path文件
 def save_file(files,path):
@@ -98,7 +98,7 @@ if __name__ == '__main__':
     while True:
         print('菜单')
         print('0 退出')
-        print('1 开始转换')
+        print('1 解析src链接url')
         print('2 ssh')
         print('3 存储地图信息到服务器')
         choice = input('请输入选项：')
@@ -106,7 +106,16 @@ if __name__ == '__main__':
             break
         elif choice == '1':
             datas = get_src_data(src)
-            files = get_target_site(datas)
+            proxies = None
+            use_proxy = input('是否使用.env代理连接？（Y/N）')
+            if use_proxy == 'Y':
+                http_proxy = os.getenv('HTTP_PROXY')
+                https_proxy = os.getenv('HTTPS_PROXY')
+                proxies = {
+                    'http': http_proxy,
+                    'https': https_proxy
+                }
+            files = get_target_site(datas, proxies)
             save_file(files,local_filename)
         elif choice == '2': 
             Shell(local_filename, remote_path, remote_filename)

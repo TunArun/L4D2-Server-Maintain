@@ -16,7 +16,7 @@ def file2url(src):
     """
     result = []
     id_pattern = r"id=(\d+)"# id counts but not for search_text
-    with open(src, "r") as f:
+    with open(src, "r", encoding="utf-8") as f:
         for line in f:
             try:# filter lines without 'id=xxxxxxx'
                 id = re.search(id_pattern, line).group(1)

@@ -1,2 +1,3 @@
-2left_4_portal_2_v1_1.vpk https://cdn.steamusercontent.com/ugc/2369544397052051557/A2A3BA9598CEA11A2AD190A6C3EB13A842AE043B/
-the_betrayal.vpk https://cdn.steamusercontent.com/ugc/10799950798405182/2965B978C5305AE5633DBCD7A817B52A82F2886A/
+atrocity_valley.vpk https://cdn.steamusercontent.com/ugc/9333820003196585363/93B7DE8854CF0879CAE1E149376D8CF3EA32EDD7/
+atrocity_valley_addons.vpk https://cdn.steamusercontent.com/ugc/14625229199205986742/80D10CF6DF079BBED423FC410C57FFDA1B14CEFE/
+moscow.vpk https://cdn.steamusercontent.com/ugc/10237922614266676172/4E9FDB44AD0E4242F9678D684482EE93B0ACD668/
