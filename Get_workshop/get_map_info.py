@@ -57,7 +57,7 @@ def txt2imgurl(img_script):
         {},
     ]
     return False
-    return ['https://asdasd', 'https://asdasd']
+    return ['https://steamcdn', 'https://asdasd']
     """
     # 确保提取成功
     if not img_script:

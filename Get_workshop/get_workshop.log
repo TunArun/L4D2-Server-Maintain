@@ -1,0 +1,48 @@
+2025-06-26 10:58:22,303 INFO success 1/3 atrocity_valley.vpk
+2025-06-26 10:58:26,106 INFO success 2/3 atrocity_valley_addons.vpk
+2025-06-26 10:58:29,890 INFO success 3/3 moscow.vpk
+2025-06-26 11:14:20,561 INFO Error downloading atrocity_valley.vpk: [Errno 2] No such file or directory: '/home/steam/l4d2server/left4dead2/addons\\atrocity_valley.vpk'
+2025-06-26 11:14:21,731 INFO Error downloading atrocity_valley_addons.vpk: [Errno 2] No such file or directory: '/home/steam/l4d2server/left4dead2/addons\\atrocity_valley_addons.vpk'
+2025-06-26 11:14:23,821 INFO Error downloading moscow.vpk: [Errno 2] No such file or directory: '/home/steam/l4d2server/left4dead2/addons\\moscow.vpk'
+2025-06-26 11:14:24,361 INFO Error downloading atrocity_valley.vpk: [Errno 2] No such file or directory: '/home/steam/l4d2server/left4dead2/addons\\atrocity_valley.vpk'
+2025-06-26 11:14:24,834 INFO Error downloading atrocity_valley_addons.vpk: [Errno 2] No such file or directory: '/home/steam/l4d2server/left4dead2/addons\\atrocity_valley_addons.vpk'
+2025-06-26 11:38:04,267 INFO Error downloading atrocity_valley.vpk: 下载被中断
+2025-06-26 11:38:11,155 INFO Error downloading moscow.vpk: 下载被中断
+2025-06-26 11:38:12,831 INFO Error downloading atrocity_valley.vpk: 下载被中断
+2025-06-26 11:38:20,903 INFO Error downloading moscow.vpk: 下载被中断
+2025-06-26 11:38:21,557 INFO Error downloading atrocity_valley.vpk: 下载被中断
+2025-06-26 11:38:21,856 INFO Error downloading atrocity_valley_addons.vpk: 下载被中断
+2025-06-26 11:38:22,186 INFO Error downloading moscow.vpk: 下载被中断
+2025-06-26 11:38:22,546 INFO Error downloading atrocity_valley.vpk: 下载被中断
+2025-06-26 11:38:22,868 INFO Error downloading atrocity_valley_addons.vpk: 下载被中断
+2025-06-26 11:38:23,183 INFO Error downloading moscow.vpk: 下载被中断
+2025-06-26 11:38:24,150 INFO Error downloading atrocity_valley.vpk: 下载被中断
+2025-06-26 11:38:24,471 INFO Error downloading atrocity_valley_addons.vpk: 下载被中断
+2025-06-26 11:38:24,825 INFO Error downloading moscow.vpk: 下载被中断
+2025-06-26 11:38:24,825 INFO Failed to download 1 files after 0 retries.
+2025-06-26 11:38:24,825 INFO Error file: atrocity_valley.vpk https://cdn.steamusercontent.com/ugc/9333820003196585363/93B7DE8854CF0879CAE1E149376D8CF3EA32EDD7/
+
+2025-06-26 11:38:24,826 INFO Error file: moscow.vpk https://cdn.steamusercontent.com/ugc/10237922614266676172/4E9FDB44AD0E4242F9678D684482EE93B0ACD668/
+
+2025-06-26 11:38:24,826 INFO Error file: atrocity_valley.vpk https://cdn.steamusercontent.com/ugc/9333820003196585363/93B7DE8854CF0879CAE1E149376D8CF3EA32EDD7/
+
+2025-06-26 11:38:24,827 INFO Error file: moscow.vpk https://cdn.steamusercontent.com/ugc/10237922614266676172/4E9FDB44AD0E4242F9678D684482EE93B0ACD668/
+
+2025-06-26 11:38:24,827 INFO Error file: atrocity_valley.vpk https://cdn.steamusercontent.com/ugc/9333820003196585363/93B7DE8854CF0879CAE1E149376D8CF3EA32EDD7/
+
+2025-06-26 11:38:24,827 INFO Error file: atrocity_valley_addons.vpk https://cdn.steamusercontent.com/ugc/14625229199205986742/80D10CF6DF079BBED423FC410C57FFDA1B14CEFE/
+
+2025-06-26 11:38:24,828 INFO Error file: moscow.vpk https://cdn.steamusercontent.com/ugc/10237922614266676172/4E9FDB44AD0E4242F9678D684482EE93B0ACD668/
+
+2025-06-26 11:38:24,828 INFO Error file: atrocity_valley.vpk https://cdn.steamusercontent.com/ugc/9333820003196585363/93B7DE8854CF0879CAE1E149376D8CF3EA32EDD7/
+
+2025-06-26 11:38:24,829 INFO Error file: atrocity_valley_addons.vpk https://cdn.steamusercontent.com/ugc/14625229199205986742/80D10CF6DF079BBED423FC410C57FFDA1B14CEFE/
+
+2025-06-26 11:38:24,829 INFO Error file: moscow.vpk https://cdn.steamusercontent.com/ugc/10237922614266676172/4E9FDB44AD0E4242F9678D684482EE93B0ACD668/
+
+2025-06-26 11:38:24,830 INFO Error file: atrocity_valley.vpk https://cdn.steamusercontent.com/ugc/9333820003196585363/93B7DE8854CF0879CAE1E149376D8CF3EA32EDD7/
+
+2025-06-26 11:38:24,830 INFO Error file: atrocity_valley_addons.vpk https://cdn.steamusercontent.com/ugc/14625229199205986742/80D10CF6DF079BBED423FC410C57FFDA1B14CEFE/
+
+2025-06-26 11:38:24,831 INFO Error file: moscow.vpk https://cdn.steamusercontent.com/ugc/10237922614266676172/4E9FDB44AD0E4242F9678D684482EE93B0ACD668/
+

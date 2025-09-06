@@ -10,7 +10,7 @@ load_dotenv()
 def info2file(maps_info,file_name="map_info.txt"):
     """
     maps_info = [info1,info2,...]
-    info={
+    info1={
         "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=213123",
         "title": "xxx",
         "size": "500MB",
@@ -20,6 +20,7 @@ def info2file(maps_info,file_name="map_info.txt"):
         "img_urls": ["https://asdasd", "https://asdasd"]
     }
     file= json(info1)\njson(info2)\n
+    file_path= ./map_info.txt
     """
     cfp=os.path.abspath(__file__)
     cfp=os.path.dirname(cfp)
@@ -34,9 +35,15 @@ def info2file(maps_info,file_name="map_info.txt"):
             print(f"{i}/{length} 正在写入{info['link']} ")
     print(f"已全部写入文件{dst_file}")
 
-def info2table(maps_info, tolocal):
+def info2table(maps_info, db_param):
     """
     maps_info = [info1,info2,...]
+    db_param = {
+        'host': ipordomain,
+        'user': username,
+        'password': password,
+        'database': dbname
+    }
     info={
         "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=213123",
         "title": "xxx",
@@ -58,26 +65,10 @@ def info2table(maps_info, tolocal):
     | rating      | char(1)      | YES  |     | NULL    |
     | rating_num  | varchar(16)  | YES  |     | NULL    |
     """
-    # Initialize MySQL parameters
-    table = 'maps'
-    remo_para = {
-        'host': os.getenv("SERVER_ADDR"),
-        'user': os.getenv("DB_USER"),
-        'password': os.getenv("DB_PASS"),
-        'database': os.getenv("DB_NAME")
-    }
-    local_para ={
-        'host': "localhost",
-        'user': "workshop",
-        'password': "wolaizuchengtoubu",
-        'database': "trashcan"
-    }
-    if tolocal:
-        conn_para = local_para
-    else:
-        conn_para = remo_para
-    db = mysql.connector.connect(**conn_para)
-    print(f"mysql数据库连接成功：{conn_para}")
+
+    db = mysql.connector.connect(**db_param)
+    table = "maps"
+    print(f"mysql数据库连接成功：{db_param}")
     cursor = db.cursor()
     sql_insert = "INSERT INTO {} (size, title, link, description, img_urls, rating, rating_num) VALUES (%s, %s, %s, %s, %s, %s, %s)".format(table)
     sql_select = "SELECT COUNT(*) FROM maps WHERE link = %s"
@@ -107,10 +98,30 @@ def info2table(maps_info, tolocal):
     db.commit()
     db.close()
 
-def store_map_info(tolocal=False):
+# 被import时不执行
+def store_map_info(to=0):
+    """
+    to=0:store to mysql-DB_NAME-maps
+    to=1:store to file
+    to=2:store to both
+    """
     maps_info = get_map_info.get_maps_info()
-    info2table(maps_info, tolocal)
-    #info2file(maps_info)
-
+     # Initialize MySQL parameters
+    db_param = {
+        'host': os.getenv("SERVER_ADDR"),
+        'user': os.getenv("DB_USER"),
+        'password': os.getenv("DB_PASS"),
+        'database': os.getenv("DB_NAME")
+    }
+    if to==0:
+        info2table(maps_info, db_param)
+    elif to==1:
+        info2file(maps_info)
+    elif to==2:
+        info2file(maps_info)
+        info2table(maps_info, db_param)
+    else:
+        info2table(maps_info, db_param)
+# 主文件时运行
 if __name__ == '__main__':
     store_map_info()

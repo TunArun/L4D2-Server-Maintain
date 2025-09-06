@@ -23,9 +23,9 @@ SteamCMD https://blog.csdn.net/llfdhr/article/details/132222752
 - 创建药役、尸潮模式、对抗模式
 - 武器数据修改.vpk
 原始数据参考https://steamcommunity.com/sharedfiles/filedetails/?l=chinese&id=2071963177
-将大狙和鸟狙伤害改为300
+将大狙和鸟狙伤害改为666\650 M60可补充子弹、容量减少为
 马格南减少扩散并加强了穿透，伤害为100，弹夹容量为12
-小手枪伤害36->48
+小手枪伤害36->48 
 - 多特控制插件目前是AI_HardSI.smx特感0帧起手实在难绷
 已经更换为Neko多特,还有csm选择角色插件也可能导致崩溃~~
 - 考虑增加安全屋超时传送、玩门处死插件
