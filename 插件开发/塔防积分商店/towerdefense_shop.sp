@@ -365,6 +365,8 @@ void TryPlaceBuild(int client, ShopItem si)
 
     float ang[3] = { 0.0, 0.0, 0.0 };
     ang[1] = vAng[1];
+    if(StrContains(si.item , "weapons")!=-1)ang[1] += 180.0;
+        
     TeleportEntity(ent, endPos, ang, NULL_VECTOR);//传送到指定坐标+角度
     SetEntityMoveType(ent, MOVETYPE_NONE);  // 禁止物理移动
 
@@ -559,7 +561,7 @@ void ResetShopConfig()
         kv.SetString("name", "栅栏");
         kv.SetString("item", "models/props_urban/wood_fence001_64.mdl");
         kv.SetString("command", "prop_physics_override");
-        kv.SetNum("price", 500);
+        kv.SetNum("price", 50);
         kv.SetNum("hp", 999);
         kv.GoBack();
 
