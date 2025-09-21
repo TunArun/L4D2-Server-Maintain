@@ -325,6 +325,8 @@ void TryPlaceBuild(int client, ShopItem si)
     DispatchKeyValue(ent, "model", si.item);
     // 生成实体
     DispatchSpawn(ent);
+    if(StrContains(si.item , "weapons")!=-1)AcceptEntityInput(ent, "Enable");
+
     if(si.hp != -1){// 其他物品看hp,-1表示无限，不用绑定扣血逻辑，游戏内自行处理
         SetEntProp(ent, Prop_Data, "m_iHealth", si.hp);
         SDKHook(ent, SDKHook_OnTakeDamage, OnBuildTakeDamage);
@@ -365,6 +367,7 @@ void TryPlaceBuild(int client, ShopItem si)
     ang[1] = vAng[1];
     TeleportEntity(ent, endPos, ang, NULL_VECTOR);//传送到指定坐标+角度
     SetEntityMoveType(ent, MOVETYPE_NONE);  // 禁止物理移动
+
     PrintToChat(client, "建造成功,剩余%d点", g_points.client[client]);
 }
 public bool TraceEntityFilterPlayers(int entity, int contentsMask, any data)
