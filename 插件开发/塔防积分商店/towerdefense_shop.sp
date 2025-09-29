@@ -54,7 +54,8 @@ public void OnPluginStart()
     HookEvent("infected_death", Event_InfectedDeath); 
     HookEvent("witch_killed", Event_WitchKilled); 
     HookEvent("player_death", Event_PlayerDeath); 
-    HookEvent("mission_lost", Event_MissionLost);
+    HookEvent("mission_lost", Event_MissionLost); // 战役模式结束
+    HookEvent("survival_round_start", Event_MissionLost);// Survival 模式结束
 
 }
 public void OnMapStart(){
@@ -75,14 +76,15 @@ public void Event_MissionLost(Event event, const char[] name, bool dontBroadcast
 }
 //清除所有/指定人的积分
 void ClearPoints(int client =-1){
-    if(client == -1){
-        for(int i = 1; i <= MaxClients; i++){
-            g_points.client[i] = 0;
-        }
+    if(client != -1){
+        g_points.client[client] = 0;
         return;
     }
-    g_points.client[client] = 0;
+    for(int i = 1; i <= MaxClients; i++){
+        g_points.client[i] = 0;
+    }
     return;
+    
 }
 // 从g_items加载击杀奖励点数g_points
 int GetPointPrice(const char[] id, int defaultValue) {
@@ -218,6 +220,7 @@ void OpenItemMenu(int client, const char[] choice)
         Format(display, sizeof(display), "%s (%d点)", item.name, item.price);
         menu.AddItem(item.id, display);
     }
+    menu.ExitBackButton=true;
     menu.Display(client, 10);
 }
 
@@ -237,6 +240,7 @@ public int ItemHandler(Menu menu, MenuAction action, int client, int item)
         Format(cmd, sizeof(cmd), "%s %s", tmp.command, tmp.item); //e.g. give weapon_first_aid_kit
         TryGiveItem(client, cmd, tmp.price);
     }
+    else if(action == MenuAction_Cancel && item == MenuCancel_ExitBack) Command_Shop(client, 0);
     else if(action == MenuAction_End) delete menu;
     return 0;
 }
@@ -274,6 +278,7 @@ void OpenBuildMenu(int client)
         Format(display, sizeof(display), "%s (%d点)", item.name, item.price);
         menu.AddItem(item.id, display);
     }
+    menu.ExitBackButton=true;
     menu.Display(client, 10);
 }
 
@@ -281,18 +286,17 @@ public int BuildHandler(Menu menu, MenuAction action, int client, int item)
 {
     if (action == MenuAction_End) {
         delete menu;
-        return 0;
-    }
-    if(action == MenuAction_Select){
+    } else if(action == MenuAction_Select){
         char id[32]; 
         menu.GetItem(item, id, sizeof(id));
         int i = FindItemById(id);
         if(i==-1)return 0;
-
         ShopItem tmp;
         g_items.GetArray(i, tmp, sizeof(tmp));
         // 放置建造物，限制100单位内朝向玩家
         TryPlaceBuild(client, tmp);
+    }else if(action == MenuAction_Cancel && item == MenuCancel_ExitBack){
+        Command_Shop(client, 0);
     }
     return 0;
 }
@@ -562,7 +566,7 @@ void ResetShopConfig()
         kv.SetString("item", "models/props_urban/wood_fence001_64.mdl");
         kv.SetString("command", "prop_physics_override");
         kv.SetNum("price", 50);
-        kv.SetNum("hp", 999);
+        kv.SetNum("hp", 2000);
         kv.GoBack();
 
         kv.JumpToKey("50cal", true);
@@ -570,7 +574,7 @@ void ResetShopConfig()
         kv.SetString("item", "models/w_models/weapons/50cal.mdl");
         kv.SetString("command", "prop_mounted_machine_gun");
         kv.SetNum("price", 100);
-        kv.SetNum("hp", 999);
+        kv.SetNum("hp", 7000);
         kv.GoBack();
 
         kv.JumpToKey("gatling", true);
@@ -578,7 +582,7 @@ void ResetShopConfig()
         kv.SetString("item", "models/w_models/weapons/w_minigun.mdl");
         kv.SetString("command", "prop_minigun_l4d1");
         kv.SetNum("price", 100);
-        kv.SetNum("hp", 999);
+        kv.SetNum("hp", 7000);
         kv.GoBack();
 
         kv.JumpToKey("gascan", true);
